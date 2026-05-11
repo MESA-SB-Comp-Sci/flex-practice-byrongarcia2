@@ -105,21 +105,25 @@ on the children, the rest are properties you have used in past challenges
   display: flex;
   flex: 1;
   justify-content: space-around;
-
+  flex-direction: column;
 }
 
 .c-6-child-1 {
   background-color: lightgrey;
-  /* add code below */
-
-
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
 }
 
 .c-6-child-2 {
   background-color: darkgrey;
-
-  /* add code below */
+  display: flex;
+ flex: 1;
+ justify-content: space-around;
+ align-items: center;
 }
+
 
 
 /* =============================================
